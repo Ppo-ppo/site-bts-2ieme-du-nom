@@ -2,6 +2,10 @@ body{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .applat{
     width: 96vw;
@@ -151,18 +155,28 @@ a:hover{
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
+}
+.formeanime{
+    width: 65%;
+    height: 550px; 
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 30% 70% 86% 14% / 42% 30% 70% 58%; 
+    border: 15px dashed white;
 }
 .presentation{
-    width: 60%;
+    width: 90%;
     height: 500px;
     opacity: .7;
     border-radius: 30% 70% 86% 14% / 42% 30% 70% 58%;
 }
 .bonjour{
     position: absolute;
-    font-size: 170px;
+    font-size: 160px;
     font-family: 'Amatic SC';
     color: rgb(0, 0, 0);
+    z-index: 1000;
 }
