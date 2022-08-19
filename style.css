@@ -115,6 +115,7 @@ section{
 }
 .navbar{
     width: 96vw;
+    height: 50px;
 }
 ul {
     list-style-type: none;
@@ -125,11 +126,43 @@ ul {
     flex-direction: row;
     justify-content: space-around;
     background-color: rgba(162, 114, 202, 0.589);
-    /* position: fixed; */
   }
 a {
     text-decoration: none;
     color: black;
     font-size: 30px;
     font-family: 'Amatic SC';
+    border-bottom: 0px solid black;
+    transition: .3s;
+}
+a:hover{
+    border-bottom: 2px solid black;
+    transition: .3s;
+}
+.bienvenue{
+    width: 96vw;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxbienvenue{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.presentation{
+    width: 60%;
+    height: 500px;
+    opacity: .7;
+    border-radius: 30% 70% 86% 14% / 42% 30% 70% 58%;
+}
+.bonjour{
+    position: absolute;
+    font-size: 170px;
+    font-family: 'Amatic SC';
+    color: rgb(0, 0, 0);
 }
