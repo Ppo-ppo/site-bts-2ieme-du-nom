@@ -180,3 +180,17 @@ a:hover{
     color: rgb(0, 0, 0);
     z-index: 1000;
 }
+.introduction{
+    width: 60%;
+    height: 500px;
+    box-sizing: border-box;
+}
+.intro{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+.blob1{
+    
+}
